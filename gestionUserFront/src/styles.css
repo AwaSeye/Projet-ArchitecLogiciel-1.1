@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "Times New Roman";}
+.slogan
+{
+  padding-left: 27%;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 100px;
+  font-family: "Times New Roman";
+  color: antiquewhite;
+}
+
+
+body
+{
+  background-image: url("image/master.jpg");
+  background-size: 1705px 719px;
+}

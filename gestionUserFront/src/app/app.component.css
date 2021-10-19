@@ -1,0 +1,23 @@
+#logout
+{
+  padding-left: 800px;
+}
+
+.principal
+{
+  width: 1533px;
+  height: 720px;
+}
+
+.corps
+{
+  width: 1533px;
+  height:720px;
+  float: left;
+}
+
+mat-list-item
+{
+  margin-left: 100px;
+}
+

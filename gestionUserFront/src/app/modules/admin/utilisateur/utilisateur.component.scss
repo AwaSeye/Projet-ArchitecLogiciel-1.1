@@ -1,0 +1,78 @@
+table {
+  width: 100%;
+
+}
+
+button {
+  margin: 16px 8px;
+}
+.button_Add{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+td{
+  width: 20%;
+}
+
+.test{
+  margin: 20px 40px 40px 40px;
+}
+
+
+body {
+  font-family: "Times New Roman";
+  margin: 0;
+
+}
+::ng-deep .mat-typography{
+  background-color: white;
+}
+// scss navbar
+.basic-container {
+  padding: 50px;
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+}
+
+.version-info {
+  color: #000000;
+  font-size: 8pt;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+mat-nav-list.list-horizontal {
+  padding: 0;
+.mat-list-item {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row{
+  height: unset !important;
+}
+
+.mat-list-item .mat-list-item-content {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+mat-icon{
+  cursor: pointer;
+}
+
+.container-fluid{
+  margin-top: 25px;
+}
+
+mat-form-field
+{
+  padding-left: 200px;
+}

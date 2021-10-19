@@ -1,0 +1,19 @@
+<div>
+  <mat-toolbar color="secondary">
+    <mat-nav-list class="list-horizontal">
+      <mat-list-item>
+        <button mat-menu-item >Accueil</button>
+        <button><a routerLink="utilisateur">Gestion Des Utilisateurs</a></button>
+        <a id="logout" class="nav-item nav-link" (click)="logout()">Logout</a>
+      </mat-list-item>
+      <mat-menu #billsmenu="matMenu" [overlapTrigger]="false">
+        <button mat-menu-item>
+          <mat-icon>home</mat-icon>
+          <span>Bill Management</span>
+        </button>
+      </mat-menu>
+    </mat-nav-list>
+  </mat-toolbar>
+</div>
+
+<router-outlet></router-outlet>

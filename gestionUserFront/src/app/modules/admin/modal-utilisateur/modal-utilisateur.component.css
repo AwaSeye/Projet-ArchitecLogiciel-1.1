@@ -1,0 +1,7 @@
+.textare{
+  width: 500px; height: 100px;
+}
+mat-icon{
+  cursor: pointer;
+  color: red;
+}

@@ -1,0 +1,84 @@
+#principal
+{
+  height: 720px;
+  width: 1535px;
+
+}
+
+#container
+{
+  height: 720px;
+  width: 1535px;
+  float: left;
+  background-size: 1705px 719px;
+
+}
+form {
+  width:600px;
+  margin-top: 250px;
+  border: 1px;
+  background:white;
+  margin-left: 660px;
+}
+input[type=text], input[type=password]
+{
+  width: 600px;
+  height: 60px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Times New Roman";
+}
+#submit
+{
+  background-color:#641E16;
+  display: flex;
+  color: white;
+  padding: 14px 20px;
+  margin-left:130px;
+  margin-top: 10px;
+  padding-left: 100px;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
+  font-family: "Times New Roman";
+}
+h1{
+  color: black;
+}
+
+label
+{
+  color: #641E16;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Times New Roman";
+}
+.inscrire
+{
+  background-color:white;
+  display: flex;
+  color: white;
+  padding: 14px 20px;
+  margin-left:110px;
+  margin-top: 10px;
+  padding-left: 100px;
+  border: none;
+  cursor: pointer;
+  width: 400px;
+  height: 60px;
+  font-size: 25px;
+  font-family: "Times New Roman";
+}
+
+a{
+  margin-left: 115px;
+  color: slategrey;
+  text-decoration:underline;
+  font-size: 15px;
+}
